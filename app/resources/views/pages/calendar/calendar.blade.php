@@ -18,7 +18,7 @@
               plugins: [window.timeGridPlugin],
               themeSystem: 'bootstrap',
               initialView: 'timeGridWeek',
-              locale: 'hu',
+              locale: '{{ app()->getLocale() }}',
               eventBorderColor: 'white',
               events: events,
               allDay: false,
