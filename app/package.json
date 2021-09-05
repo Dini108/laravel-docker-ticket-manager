@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "dependencies": {
+        "@fullcalendar/core": "^5.9.0",
+        "@fullcalendar/timegrid": "^5.9.0",
+        "ajv": "^6.12.6",
+        "apollo-cache-inmemory": "^1.6.6",
+        "apollo-client": "^2.6.10",
+        "apollo-link-http": "^1.5.17",
+        "datatables-buttons": "^1.0.3",
+        "datatables.net": "^1.11.1",
+        "datatables.net-bs4": "^1.11.1",
+        "datatables.net-dt": "^1.11.1",
+        "fullcalendar": "^5.9.0",
+        "moment": "^2.29.1",
+        "pdfmake": "^0.2.2"
+    },
+    "devDependencies": {
+        "axios": "^0.21.1",
+        "bootstrap": "^5.0.2",
+        "cross-env": "^7.0.3",
+        "fullcalendar": "^5.9.0",
+        "jquery": "^3.6.0",
+        "laravel-mix": "^6.0.25",
+        "lodash": "^4.17.21",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.36.0",
+        "sass-loader": "^12.1.0"
+    }
+}
