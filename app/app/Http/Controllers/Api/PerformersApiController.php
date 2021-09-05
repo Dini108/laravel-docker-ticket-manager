@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Api;
 
 use App\Performer;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\PerformerResource;
 use App\Http\Requests\StorePerformerRequest;

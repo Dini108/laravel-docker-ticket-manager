@@ -45,7 +45,7 @@ class EventsController extends Controller
             });
 
             $table->editColumn('id', function ($row) {
-                return $row->id ? $row->id : "";
+                return $row->id ?: "";
             });
             $table->addColumn('name', function ($row) {
                 return $row->name ?? '';

@@ -2,9 +2,7 @@
 
 namespace App\Http\Requests;
 
-use App\Event;
 use Illuminate\Foundation\Http\FormRequest;
-use Symfony\Component\HttpFoundation\Response;
 
 class UpdateEventRequest extends FormRequest
 {

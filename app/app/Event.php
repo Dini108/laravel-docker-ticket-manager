@@ -55,7 +55,7 @@ class Event extends Model
     public function getFinishTimeAttribute($value): string
     {
         $date = Carbon::parse($value);
-        return $date->format('Y-m-d\TH:i:s');
+        return $date->format('Y-m-d H:i:s');
     }
 
     /**
@@ -65,7 +65,7 @@ class Event extends Model
     public function getStartTimeAttribute($value): string
     {
         $date = Carbon::parse($value);
-        return $date->format('Y-m-d\TH:i:s');
+        return $date->format('Y-m-d H:i:s');
     }
 
 }

@@ -9,12 +9,6 @@ window.timeGridPlugin = timeGridPlugin;
 import moment from 'moment';
 window.moment = moment;
 
-import bootstrap from 'bootstrap';
-import popper from "popper.js";
-
-window.bootstrap = bootstrap;
-window.popper = popper;
-
 import 'datatables.net-bs4'
 import DataTables from 'datatables.net-dt';
 window.dataTables = DataTables;

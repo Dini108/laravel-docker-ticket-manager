@@ -6,7 +6,6 @@ use App\Http\Requests\MassDestroyTicketRequest;
 use App\Ticket;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\Facades\DataTables;
 use App\Http\Requests\StoreTicketRequest;
 use App\Http\Requests\MassBuyTicketRequest;

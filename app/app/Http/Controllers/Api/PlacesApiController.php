@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Api;
 
 use App\Place;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\PlaceResource;
 use App\Http\Requests\StorePlaceRequest;

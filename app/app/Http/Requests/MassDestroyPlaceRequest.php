@@ -2,9 +2,7 @@
 
 namespace App\Http\Requests;
 
-use App\Place;
 use Illuminate\Foundation\Http\FormRequest;
-use Symfony\Component\HttpFoundation\Response;
 
 class MassDestroyPlaceRequest extends FormRequest
 {
