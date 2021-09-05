@@ -24,6 +24,4 @@ Take the following steps:
 
 Webpage path: http://localhost
 
-To run acceptance tests:
-(inside docker container)
-- php vendor/bin/codecept run acceptance --steps --env=chrome
+Example User: user@example.com/password, or you can create one at http://localhost/register.
