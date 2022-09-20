@@ -7,7 +7,7 @@ To run this project you need to have docker and docker-compose installed on your
 
 Take the following steps:
 
-- clone repository: 'git clone https://github.com/Dini108/laravel-docker-event-manager'
+- clone repository: 'git clone https://github.com/denesberta/laravel-docker-event-manager'
 - change directory: 'cd laravel-docker-event-manager'
 - 'docker-compose build'
 - 'docker-compose up -d'
